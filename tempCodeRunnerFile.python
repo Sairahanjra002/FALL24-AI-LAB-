@@ -1,0 +1,33 @@
+import random
+
+def fizzbuzz():
+    number = random.randint(1, 100)
+
+    while True:
+        print(number)
+        user = input("Tell me if the number is divisible by 3 (fizz), 5 (buzz), both (fizzbuzz), or none: ")
+
+        if number % 5 == 0 and number % 3 == 0:
+            correct = "fizzbuzz"
+        elif number % 3 == 0:
+            correct = "fizz"
+        elif number % 5 == 0:
+            correct = "buzz"
+        else:
+            correct = "none"
+
+        if user == correct:
+            print("Correct!", correct)
+        else:
+            print("Wrong! The right answer was:", correct)
+            break
+
+        new_number = random.randint(1, 100)
+        print(f"New number: {new_number}")
+
+        total = number + new_number
+        print(f"Old number {number} + new number {new_number} = Total {total}")
+
+        number = total
+
+fizzbuzz()
