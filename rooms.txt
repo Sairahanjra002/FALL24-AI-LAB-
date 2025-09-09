@@ -1,0 +1,5 @@
+kitchen, 28, OFF
+bedroom, 24, ON
+living room, 30, OFF
+study room, 20, OFF
+garage, 35, ON

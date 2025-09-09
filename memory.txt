@@ -1,0 +1,4 @@
+study room,20,24,AC was OFF at 20C
+garage,30,24,AC was ON at 35C
+kitchen,28,24,AC was OFF at 28C
+bedroom,24,24,AC was ON at 24C
