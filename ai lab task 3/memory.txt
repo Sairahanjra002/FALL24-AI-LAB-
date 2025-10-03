@@ -1,0 +1,10 @@
+kitchen,18,24,Heater was OFF at 28C
+bedroom,20,24,Heater was OFF at 24C
+living room,30,24,Heater was OFF at 30C
+study room,20,24,Heater was ON at 20C
+garage,35,24,Heater was OFF at 35C
+kitchen,21,24,Heater was OFF at 28C
+bedroom,24,24,Heater was OFF at 24C
+living room,35,24,Heater was OFF at 30C
+study room,25,24,Heater was ON at 20C
+garage,30,24,Heater was OFF at 35C
